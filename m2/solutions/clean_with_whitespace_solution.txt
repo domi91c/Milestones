@@ -1,0 +1,66 @@
+Command Line Arguments
+----------------------
+Customer Order File Specified = cmake-build-debug/CustomerOrders_Malformed.dat
+Item File Specified           = cmake-build-debug/ItemList_Malformed.dat
+File Record Field Delimiter   = |
+
+
+*** Load and Accept the Customer Orders ***
+
+List of Accepted Customer Orders
+--------------------------------
+Fardad Soleimanloo  :  Dell Precision 3600
+ - [00000] CPU
+ - [00000] Memory
+ - [00000] Memory
+Joseph Hughes       :  HP Z230
+ - [00000] CPU
+ - [00000] Memory
+Chris Szalwinski    :  HP Z350
+ - [00000] CPU
+ - [00000] Memory
+ - [00000] SSD
+ - [00000] GPU
+Elliott Coleshill   :  HP Apollo 1000
+ - [00000] CPU
+ - [00000] MEMORY
+ - [00000] Power Supply
+ - [00000] GPU
+
+*** Load and Accept the Items in Stock ***
+
+List of Items in Stock
+----------------------
+CPU          [00300] From CPU          To Remove CPU
+                   : Central Processing Unit
+Memory       [00400] From Memory       To Remove Memory
+                   : Samsung Memory Stick
+GPU          [00500] From GPU          To Remove GPU
+                   : Nvidia Geforce 750M
+Power Supply [00100] From Power Supply To Remove Power Supply
+                   : no detailed description
+
+*** Process the Customer Orders ***
+
+List of Processed Customer Orders
+---------------------------------
+Fardad Soleimanloo  :  Dell Precision 3600
+ + [00300] CPU
+ + [00400] Memory
+ + [00401] Memory
+Joseph Hughes       :  HP Z230
+ + [00301] CPU
+ + [00402] Memory
+Chris Szalwinski    :  HP Z350
+ + [00302] CPU
+ + [00403] Memory
+ - [00000] SSD
+ + [00500] GPU
+Elliott Coleshill   :  HP Apollo 1000
+ + [00303] CPU
+ - [00000] MEMORY
+ + [00100] Power Supply
+ + [00501] GPU
+
+Done!
+Press Enter Key to Exit ... 
