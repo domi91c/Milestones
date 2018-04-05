@@ -6,6 +6,10 @@
  * \date 2018-03-25
  * \author Dominic Nunes - 016-183-121
 ***********************************************************/
+
+#ifndef MS_TASK_H
+#define MS_TASK_H
+
 #include <iostream>
 #include <string>
 
@@ -13,7 +17,6 @@
 namespace MS
 {
 /*!
- *
  * \brief A text file identifies the tasks that make up the assembly line.
  * Each record within this file identifies one task, the number of product
  * slots that the task handles and any follow-on tasks.  A valid input
@@ -28,7 +31,6 @@ namespace MS
  * next task.  The fourth field is optional.  If it is omitted, the third field
  * is optional.  If it is omitted, the second field is optional and defaults
  * to 1.
- *
  * */
 class Task
 {
@@ -37,7 +39,9 @@ class Task
     std::string nextTask[2];   // names of the next tasks
     const Task *pNextTask[2];  // addresses of the next tasks
     static size_t field_width; // current maximum field width
+
 public:
+
     /*!
      * \enum 0 = passed, 1 = redirect
      * */
@@ -126,7 +130,6 @@ public:
 };
 
 /*!
- *
  * \param task_a is a reference to the first Task to be compared
  * \param task_b is a reference to the second Task to be compared
  *
@@ -135,3 +138,5 @@ public:
  * */
 bool operator==(const Task &task_a, const Task &task_b);
 }
+
+#endif // MS_TASK_H

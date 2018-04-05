@@ -57,28 +57,28 @@ include CMakeFiles/untitled.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/untitled.dir/flags.make
 
-CMakeFiles/untitled.dir/Milestone_1.cpp.o: CMakeFiles/untitled.dir/flags.make
-CMakeFiles/untitled.dir/Milestone_1.cpp.o: ../Milestone_1.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/Milestone_1.cpp.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Milestone_1.cpp.o -c /Users/domi91c/OOP345/Milestones/m2/Milestone_1.cpp
+CMakeFiles/untitled.dir/Milestone_2.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Milestone_2.cpp.o: ../Milestone_2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/untitled.dir/Milestone_2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Milestone_2.cpp.o -c /Users/domi91c/OOP345/Milestones/m2/Milestone_2.cpp
 
-CMakeFiles/untitled.dir/Milestone_1.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Milestone_1.cpp.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/domi91c/OOP345/Milestones/m2/Milestone_1.cpp > CMakeFiles/untitled.dir/Milestone_1.cpp.i
+CMakeFiles/untitled.dir/Milestone_2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Milestone_2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/domi91c/OOP345/Milestones/m2/Milestone_2.cpp > CMakeFiles/untitled.dir/Milestone_2.cpp.i
 
-CMakeFiles/untitled.dir/Milestone_1.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Milestone_1.cpp.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domi91c/OOP345/Milestones/m2/Milestone_1.cpp -o CMakeFiles/untitled.dir/Milestone_1.cpp.s
+CMakeFiles/untitled.dir/Milestone_2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Milestone_2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domi91c/OOP345/Milestones/m2/Milestone_2.cpp -o CMakeFiles/untitled.dir/Milestone_2.cpp.s
 
-CMakeFiles/untitled.dir/Milestone_1.cpp.o.requires:
+CMakeFiles/untitled.dir/Milestone_2.cpp.o.requires:
 
-.PHONY : CMakeFiles/untitled.dir/Milestone_1.cpp.o.requires
+.PHONY : CMakeFiles/untitled.dir/Milestone_2.cpp.o.requires
 
-CMakeFiles/untitled.dir/Milestone_1.cpp.o.provides: CMakeFiles/untitled.dir/Milestone_1.cpp.o.requires
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_1.cpp.o.provides.build
-.PHONY : CMakeFiles/untitled.dir/Milestone_1.cpp.o.provides
+CMakeFiles/untitled.dir/Milestone_2.cpp.o.provides: CMakeFiles/untitled.dir/Milestone_2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_2.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/Milestone_2.cpp.o.provides
 
-CMakeFiles/untitled.dir/Milestone_1.cpp.o.provides.build: CMakeFiles/untitled.dir/Milestone_1.cpp.o
+CMakeFiles/untitled.dir/Milestone_2.cpp.o.provides.build: CMakeFiles/untitled.dir/Milestone_2.cpp.o
 
 
 CMakeFiles/untitled.dir/Task.cpp.o: CMakeFiles/untitled.dir/flags.make
@@ -129,21 +129,99 @@ CMakeFiles/untitled.dir/Utilities.cpp.o.provides: CMakeFiles/untitled.dir/Utilit
 CMakeFiles/untitled.dir/Utilities.cpp.o.provides.build: CMakeFiles/untitled.dir/Utilities.cpp.o
 
 
+CMakeFiles/untitled.dir/Item.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/Item.cpp.o: ../Item.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/untitled.dir/Item.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/Item.cpp.o -c /Users/domi91c/OOP345/Milestones/m2/Item.cpp
+
+CMakeFiles/untitled.dir/Item.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/Item.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/domi91c/OOP345/Milestones/m2/Item.cpp > CMakeFiles/untitled.dir/Item.cpp.i
+
+CMakeFiles/untitled.dir/Item.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/Item.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domi91c/OOP345/Milestones/m2/Item.cpp -o CMakeFiles/untitled.dir/Item.cpp.s
+
+CMakeFiles/untitled.dir/Item.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled.dir/Item.cpp.o.requires
+
+CMakeFiles/untitled.dir/Item.cpp.o.provides: CMakeFiles/untitled.dir/Item.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Item.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/Item.cpp.o.provides
+
+CMakeFiles/untitled.dir/Item.cpp.o.provides.build: CMakeFiles/untitled.dir/Item.cpp.o
+
+
+CMakeFiles/untitled.dir/CustomerItem.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/CustomerItem.cpp.o: ../CustomerItem.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/untitled.dir/CustomerItem.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/CustomerItem.cpp.o -c /Users/domi91c/OOP345/Milestones/m2/CustomerItem.cpp
+
+CMakeFiles/untitled.dir/CustomerItem.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/CustomerItem.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/domi91c/OOP345/Milestones/m2/CustomerItem.cpp > CMakeFiles/untitled.dir/CustomerItem.cpp.i
+
+CMakeFiles/untitled.dir/CustomerItem.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/CustomerItem.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domi91c/OOP345/Milestones/m2/CustomerItem.cpp -o CMakeFiles/untitled.dir/CustomerItem.cpp.s
+
+CMakeFiles/untitled.dir/CustomerItem.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled.dir/CustomerItem.cpp.o.requires
+
+CMakeFiles/untitled.dir/CustomerItem.cpp.o.provides: CMakeFiles/untitled.dir/CustomerItem.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerItem.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/CustomerItem.cpp.o.provides
+
+CMakeFiles/untitled.dir/CustomerItem.cpp.o.provides.build: CMakeFiles/untitled.dir/CustomerItem.cpp.o
+
+
+CMakeFiles/untitled.dir/CustomerOrder.cpp.o: CMakeFiles/untitled.dir/flags.make
+CMakeFiles/untitled.dir/CustomerOrder.cpp.o: ../CustomerOrder.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/untitled.dir/CustomerOrder.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/untitled.dir/CustomerOrder.cpp.o -c /Users/domi91c/OOP345/Milestones/m2/CustomerOrder.cpp
+
+CMakeFiles/untitled.dir/CustomerOrder.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled.dir/CustomerOrder.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/domi91c/OOP345/Milestones/m2/CustomerOrder.cpp > CMakeFiles/untitled.dir/CustomerOrder.cpp.i
+
+CMakeFiles/untitled.dir/CustomerOrder.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled.dir/CustomerOrder.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/domi91c/OOP345/Milestones/m2/CustomerOrder.cpp -o CMakeFiles/untitled.dir/CustomerOrder.cpp.s
+
+CMakeFiles/untitled.dir/CustomerOrder.cpp.o.requires:
+
+.PHONY : CMakeFiles/untitled.dir/CustomerOrder.cpp.o.requires
+
+CMakeFiles/untitled.dir/CustomerOrder.cpp.o.provides: CMakeFiles/untitled.dir/CustomerOrder.cpp.o.requires
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerOrder.cpp.o.provides.build
+.PHONY : CMakeFiles/untitled.dir/CustomerOrder.cpp.o.provides
+
+CMakeFiles/untitled.dir/CustomerOrder.cpp.o.provides.build: CMakeFiles/untitled.dir/CustomerOrder.cpp.o
+
+
 # Object files for target untitled
 untitled_OBJECTS = \
-"CMakeFiles/untitled.dir/Milestone_1.cpp.o" \
+"CMakeFiles/untitled.dir/Milestone_2.cpp.o" \
 "CMakeFiles/untitled.dir/Task.cpp.o" \
-"CMakeFiles/untitled.dir/Utilities.cpp.o"
+"CMakeFiles/untitled.dir/Utilities.cpp.o" \
+"CMakeFiles/untitled.dir/Item.cpp.o" \
+"CMakeFiles/untitled.dir/CustomerItem.cpp.o" \
+"CMakeFiles/untitled.dir/CustomerOrder.cpp.o"
 
 # External object files for target untitled
 untitled_EXTERNAL_OBJECTS =
 
-untitled: CMakeFiles/untitled.dir/Milestone_1.cpp.o
+untitled: CMakeFiles/untitled.dir/Milestone_2.cpp.o
 untitled: CMakeFiles/untitled.dir/Task.cpp.o
 untitled: CMakeFiles/untitled.dir/Utilities.cpp.o
+untitled: CMakeFiles/untitled.dir/Item.cpp.o
+untitled: CMakeFiles/untitled.dir/CustomerItem.cpp.o
+untitled: CMakeFiles/untitled.dir/CustomerOrder.cpp.o
 untitled: CMakeFiles/untitled.dir/build.make
 untitled: CMakeFiles/untitled.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable untitled"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable untitled"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/untitled.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -151,9 +229,12 @@ CMakeFiles/untitled.dir/build: untitled
 
 .PHONY : CMakeFiles/untitled.dir/build
 
-CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Milestone_1.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Milestone_2.cpp.o.requires
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Task.cpp.o.requires
 CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Utilities.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/Item.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/CustomerItem.cpp.o.requires
+CMakeFiles/untitled.dir/requires: CMakeFiles/untitled.dir/CustomerOrder.cpp.o.requires
 
 .PHONY : CMakeFiles/untitled.dir/requires
 

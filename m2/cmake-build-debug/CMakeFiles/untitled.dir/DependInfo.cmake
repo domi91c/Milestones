@@ -4,7 +4,10 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/domi91c/OOP345/Milestones/m2/Milestone_1.cpp" "/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles/untitled.dir/Milestone_1.cpp.o"
+  "/Users/domi91c/OOP345/Milestones/m2/CustomerItem.cpp" "/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles/untitled.dir/CustomerItem.cpp.o"
+  "/Users/domi91c/OOP345/Milestones/m2/CustomerOrder.cpp" "/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles/untitled.dir/CustomerOrder.cpp.o"
+  "/Users/domi91c/OOP345/Milestones/m2/Item.cpp" "/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles/untitled.dir/Item.cpp.o"
+  "/Users/domi91c/OOP345/Milestones/m2/Milestone_2.cpp" "/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles/untitled.dir/Milestone_2.cpp.o"
   "/Users/domi91c/OOP345/Milestones/m2/Task.cpp" "/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles/untitled.dir/Task.cpp.o"
   "/Users/domi91c/OOP345/Milestones/m2/Utilities.cpp" "/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CMakeFiles/untitled.dir/Utilities.cpp.o"
   )

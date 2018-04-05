@@ -1,5 +1,5 @@
 /*! ********************************************************
- * \name OOP345: Milestone 1
+ * OOP345: Milestone 1
  * \file Milestone_1.cpp
  * \version Version v2.0
  * \date 15/01/2016

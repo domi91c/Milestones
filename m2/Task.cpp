@@ -12,7 +12,7 @@ Task::Task(const std::string &record)
     pNextTask[passed] = nullptr;
     pNextTask[redirect] = nullptr;
 
-    MS::Utilities extract;
+    Utilities extract;
 
     size_t pos = 0;
     bool more = true;
@@ -25,19 +25,23 @@ Task::Task(const std::string &record)
             // if token is not empty, assign it to the correct variable.
             if (!token.empty()) {
                 switch (tokenCount) {
-                    // set task name if 1st token
-                    case 0:name = token;
+                    case 0: {
+                        name = token; // set task name if 1st token
                         break;
-                        // set slots number if 2nd token
-                    case 1:slots = token;
+                    }
+                    case 1: {
+                        slots = token; // set slots number if 2nd token
                         break;
-                        // set 'Continue' task name if 3rd token
-                    case 2:nextTask[passed] = token;
+                    }
+                    case 2: {
+                        nextTask[passed] = token; // set 'Continue' task name if 3rd token
                         break;
-                        // set 'Redirect' task name if 4th token
-                    case 3:nextTask[redirect] = token;
+                    }
+                    case 3: {
+                        nextTask[redirect] = token; // set 'Redirect' task name if 4th token
                         break;
-                    default:break;
+                    }
+                    default: { break; }
                 }
             }
             // if field width is greater than maximum field width so far, increase

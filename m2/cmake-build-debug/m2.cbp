@@ -80,7 +80,25 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/Milestone_1.cpp">
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/CustomerItem.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/CustomerItem.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/CustomerOrder.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/CustomerOrder.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/Item.cpp">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/Item.h">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/Milestone_2.cpp">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/Task.cpp">
@@ -95,7 +113,10 @@
 		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/Utilities.h">
 			<Option target="untitled"/>
 		</Unit>
-		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/clean_file.dat">
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/CustomerOrders_Malformed.dat">
+			<Option target="untitled"/>
+		</Unit>
+		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/cmake-build-debug/ItemList_Malformed.dat">
 			<Option target="untitled"/>
 		</Unit>
 		<Unit filename="/Users/domi91c/OOP345/Milestones/m2/CMakeLists.txt">

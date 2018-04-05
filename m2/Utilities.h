@@ -6,6 +6,10 @@
  * \date 2018-03-25
  * \author Dominic Nunes - 016-183-121
 ***********************************************************/
+
+#ifndef MS_UTILITIES_H
+#define MS_UTILITIES_H
+
 #include <string>
 #include <fstream>
 
@@ -13,9 +17,7 @@
 namespace MS
 {
 /*!
- *
  * \brief Utility functions with general usages throughout the application
- *
  * */
 class Utilities
 {
@@ -93,3 +95,5 @@ public:
     static std::ofstream &getLogFile();
 };
 }
+
+#endif // MS_UTILITIES_H

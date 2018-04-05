@@ -123,32 +123,113 @@ untitled/fast:
 	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/build
 .PHONY : untitled/fast
 
-Milestone_1.o: Milestone_1.cpp.o
+CustomerItem.o: CustomerItem.cpp.o
 
-.PHONY : Milestone_1.o
+.PHONY : CustomerItem.o
 
 # target to build an object file
-Milestone_1.cpp.o:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_1.cpp.o
-.PHONY : Milestone_1.cpp.o
+CustomerItem.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerItem.cpp.o
+.PHONY : CustomerItem.cpp.o
 
-Milestone_1.i: Milestone_1.cpp.i
+CustomerItem.i: CustomerItem.cpp.i
 
-.PHONY : Milestone_1.i
+.PHONY : CustomerItem.i
 
 # target to preprocess a source file
-Milestone_1.cpp.i:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_1.cpp.i
-.PHONY : Milestone_1.cpp.i
+CustomerItem.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerItem.cpp.i
+.PHONY : CustomerItem.cpp.i
 
-Milestone_1.s: Milestone_1.cpp.s
+CustomerItem.s: CustomerItem.cpp.s
 
-.PHONY : Milestone_1.s
+.PHONY : CustomerItem.s
 
 # target to generate assembly for a file
-Milestone_1.cpp.s:
-	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_1.cpp.s
-.PHONY : Milestone_1.cpp.s
+CustomerItem.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerItem.cpp.s
+.PHONY : CustomerItem.cpp.s
+
+CustomerOrder.o: CustomerOrder.cpp.o
+
+.PHONY : CustomerOrder.o
+
+# target to build an object file
+CustomerOrder.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerOrder.cpp.o
+.PHONY : CustomerOrder.cpp.o
+
+CustomerOrder.i: CustomerOrder.cpp.i
+
+.PHONY : CustomerOrder.i
+
+# target to preprocess a source file
+CustomerOrder.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerOrder.cpp.i
+.PHONY : CustomerOrder.cpp.i
+
+CustomerOrder.s: CustomerOrder.cpp.s
+
+.PHONY : CustomerOrder.s
+
+# target to generate assembly for a file
+CustomerOrder.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/CustomerOrder.cpp.s
+.PHONY : CustomerOrder.cpp.s
+
+Item.o: Item.cpp.o
+
+.PHONY : Item.o
+
+# target to build an object file
+Item.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Item.cpp.o
+.PHONY : Item.cpp.o
+
+Item.i: Item.cpp.i
+
+.PHONY : Item.i
+
+# target to preprocess a source file
+Item.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Item.cpp.i
+.PHONY : Item.cpp.i
+
+Item.s: Item.cpp.s
+
+.PHONY : Item.s
+
+# target to generate assembly for a file
+Item.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Item.cpp.s
+.PHONY : Item.cpp.s
+
+Milestone_2.o: Milestone_2.cpp.o
+
+.PHONY : Milestone_2.o
+
+# target to build an object file
+Milestone_2.cpp.o:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_2.cpp.o
+.PHONY : Milestone_2.cpp.o
+
+Milestone_2.i: Milestone_2.cpp.i
+
+.PHONY : Milestone_2.i
+
+# target to preprocess a source file
+Milestone_2.cpp.i:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_2.cpp.i
+.PHONY : Milestone_2.cpp.i
+
+Milestone_2.s: Milestone_2.cpp.s
+
+.PHONY : Milestone_2.s
+
+# target to generate assembly for a file
+Milestone_2.cpp.s:
+	$(MAKE) -f CMakeFiles/untitled.dir/build.make CMakeFiles/untitled.dir/Milestone_2.cpp.s
+.PHONY : Milestone_2.cpp.s
 
 Task.o: Task.cpp.o
 
@@ -213,9 +294,18 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... untitled"
-	@echo "... Milestone_1.o"
-	@echo "... Milestone_1.i"
-	@echo "... Milestone_1.s"
+	@echo "... CustomerItem.o"
+	@echo "... CustomerItem.i"
+	@echo "... CustomerItem.s"
+	@echo "... CustomerOrder.o"
+	@echo "... CustomerOrder.i"
+	@echo "... CustomerOrder.s"
+	@echo "... Item.o"
+	@echo "... Item.i"
+	@echo "... Item.s"
+	@echo "... Milestone_2.o"
+	@echo "... Milestone_2.i"
+	@echo "... Milestone_2.s"
 	@echo "... Task.o"
 	@echo "... Task.i"
 	@echo "... Task.s"

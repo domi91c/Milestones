@@ -24,11 +24,8 @@ size_t Utilities::getFieldWidth() const
 
 const std::string Utilities::trimToken(std::string str)
 {
-    // first position that is not whitespace.
-    size_t first_pos = str.find_first_not_of(' ');
-    // last position that is not whitespace.
-    size_t last_pos = str.find_last_not_of(' ');
-
+    size_t first_pos = str.find_first_not_of(' '); // first position that is not whitespace.
+    size_t last_pos = str.find_last_not_of(' '); // last position that is not whitespace.
     if (first_pos < std::string::npos) {
         // using first and last positions, extract token from whitespace.
         str = str.substr(first_pos, (last_pos - first_pos + 1));
@@ -39,36 +36,40 @@ const std::string Utilities::trimToken(std::string str)
 const std::string Utilities::nextToken(const std::string &str, size_t &next_pos, bool &more)
 {
     std::string token;
-    // if str starts with a delimiter, throw an error.
-    if (str[0] == delimiter) {
-        throw str + "<--  *** no token found before the delimiter ***";
+    size_t pos;
+
+    // if the record is empty, set more to false and throw an error
+    if (str.empty()) {
+        more = false;
+        throw "*** record is empty ***";
     }
 
-    for (size_t i = next_pos; i < 1000; ++i) {
-        // find occurence of delimiter.
-        if (str[i] == delimiter) {
-            // if a delimeter is found right after another (missing token in between),
-            // throw an error.
-            if (str[i + 1] == delimiter) {
-                throw str + "<--  *** no token found before the delimiter ***";
-            }
-            // increment next_pos so nextToken starts after this point on next run.
-            next_pos = i + 1;
+    for (pos = next_pos; pos < str.size() + 1; ++pos) {
+        // break from loop when delimiter is reached
+        if (str[pos] == delimiter) {
+            next_pos = pos + 1;
             break;
         }
-        else if (i == str.size()) {
-            // stop checking for tokens and return current token.
-            more = false;
-            return token;
-        }
+            // push current character to token
         else {
-            // if current str character is not a delimiter or the end of the string, add
-            // str character to current token.
-            token.push_back(str[i]);
+            token.push_back(str[pos]);
         }
     }
-    field_width = token.size();
-    return token;
+    ///////// Error Checks
+    // trim any whitespace from beginning and ends of token
+    std::string trimmedToken = trimToken(token);
+    if (pos >= str.size()) more = false;
+    // if token is empty, throw an error
+    if (trimmedToken.empty() || trimmedToken[0] == ' ') {
+        throw str + "<--- *** no token found before the delimiter ***";
+    }
+    // remove null terminator if it is not the only character
+    if (trimmedToken[trimmedToken.size() - 1] == '\0' && trimmedToken.size() > 1) {
+        trimmedToken.resize(trimmedToken.size() - 1);
+    }
+    // set static field_width to current token size
+    field_width = trimmedToken.size();
+    return trimmedToken;
 }
 
 void Utilities::setDelimiter(const char delim)
